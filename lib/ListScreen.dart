@@ -76,6 +76,12 @@ class _ListScreenState extends State<ListScreen> {
                             contentPadding: const EdgeInsets.all(8.0),
                               title: new Text(items[index].Name),
                             subtitle: new Text(items[index].Price),
+                              leading: CircleAvatar(
+                            radius: 50,
+                            backgroundImage: NetworkImage(
+                              items[index].UrlAvatar,
+                            ),
+                          ),
                           )),
                     );
                   },

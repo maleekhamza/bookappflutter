@@ -88,8 +88,9 @@ List<Book> books =[
 
         child: SizedBox(
         width: 80,
-        height: 80,
+            height: 100,
     child: ListTile(
+
       visualDensity: const VisualDensity(vertical: 2),
     leading: CircleAvatar(
       radius: 50,
